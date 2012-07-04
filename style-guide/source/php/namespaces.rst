@@ -9,8 +9,6 @@ without collision. ::
 
 This example clearly shows the need for namespacing::
 
-    <?php
-
     include '/model/user.php';
     include '/lib/user.php';
 
@@ -31,8 +29,6 @@ This example clearly shows the need for namespacing::
 
 
 Namespaces allow us to name classes sensibly, work with 3rd party code that might have a user class and create reusable classes withour fear of collision. ::
-
-    <?php
 
     // model/user.php
     namespace Vocab/Model;
@@ -62,8 +58,6 @@ Core Namespace
 
 The core namespace is what all Vocab Express PHP classes should come under. This is still to be decided, but for now use **Vocab**. This translates to::
 
-    <?php
-
     namespace Vocab/...;
 
 
@@ -72,8 +66,6 @@ Autoloading
 
 By namespacing our classes correctly it enables us to the follow the `PSR-0 <https://github.com/php-fig/fig-standards/blob/master/accepted/PSR-0.md/>`_
 standard and autoload our code automatically. How much nicer is it writing code like::
-
-    <?php
 
     // Autoloaded
     $user = new Vocab/Model/User;
@@ -84,8 +76,6 @@ standard and autoload our code automatically. How much nicer is it writing code 
     $user = new User;
 
 This is possible because the namespace of a class follows the directory structure in which the class is stored. ::
-
-    <?php
 
     // vocab/lib/sso.php
     namespace Vocab/Lib;
