@@ -14,6 +14,19 @@ writing source code for the Vocab Express application.
 
 
 ***
+CSS
+***
+
+- :doc:`css/organisation`
+- :doc:`css/recess`
+- :doc:`css/whitespace`
+- :doc:`css/comments`
+- :doc:`css/formatting`
+- :doc:`css/naming`
+- :doc:`css/example`
+
+
+***
 PHP
 ***
 
@@ -31,24 +44,11 @@ PHP
 - :doc:`php/example`
 
 
-***
-CSS
-***
-
-- :doc:`css/organisation`
-- :doc:`css/recess`
-- :doc:`css/whitespace`
-- :doc:`css/comments`
-- :doc:`css/formatting`
-- :doc:`css/naming`
-- :doc:`css/example`
-
-
-
 .. toctree::
     :glob:
     :titlesonly:
     :hidden:
 
     *
+    css/index
     php/index
