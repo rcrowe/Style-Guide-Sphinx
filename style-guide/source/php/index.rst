@@ -11,9 +11,7 @@ the Vocab Express coding standard.
 - :doc:`namespaces`
 - :doc:`naming`
 - :doc:`comments`
-- :doc:`keywords`
 - :doc:`style`
-- :doc:`control_structures`
 - :doc:`comparison_logical`
 - :doc:`misc`
 - :doc:`example`

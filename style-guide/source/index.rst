@@ -36,9 +36,7 @@ PHP
 - :doc:`php/namespaces`
 - :doc:`php/naming`
 - :doc:`php/comments`
-- :doc:`php/keywords`
 - :doc:`php/style`
-- :doc:`php/control_structures`
 - :doc:`php/comparison_logical`
 - :doc:`php/misc`
 - :doc:`php/example`

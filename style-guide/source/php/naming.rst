@@ -95,4 +95,3 @@ Keywords
     $var = true
     $var = false
     $var = null
-
