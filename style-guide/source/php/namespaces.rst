@@ -25,6 +25,7 @@ This example clearly shows the need for namespacing::
     include '/lib/user_lib.php';
 
     // But this could still clash
+    // and names can start to get really messy `orgSubIvcInv` :S
     $user_model = new User_Model;
     $user_lib   = new User_Lig;
 
