@@ -22,4 +22,5 @@ build:
 	cd style-guide && make $(TYPE) && cd ../
 
 update:
+	git reset --hard HEAD
 	git pull origin $(REPO)
