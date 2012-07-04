@@ -351,3 +351,6 @@ fieldset{ border: 0; }
 .section {
 	margin: 0 0 40px 0;
 }
+#content {
+	margin: 0;
+}
