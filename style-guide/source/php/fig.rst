@@ -2,11 +2,11 @@
 PHP-FIG
 #######
 
-If the PHP style guide does not cover a topic or item then look to the `PHP-FIG <https://github.com/php-fig/fig-standards>`_
-for how they do it.
-
 `PHP-FIG <https://github.com/php-fig/fig-standards>`_ is the PHP Framework Interop Group. They are helping to shape the standards
 for PHP code to make it more compatible and readable. In most cases we try to follow their standards as closely as possible.
+
+If the PHP style guide does not cover a topic or item then look to the `PHP-FIG <https://github.com/php-fig/fig-standards>`_
+for how they do it.
 
 Currently *(as of 03/07/12)* they have the following standards:
 
