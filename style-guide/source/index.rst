@@ -1,5 +1,5 @@
 #########################
-Vocab Express Style Guide - I hope this works
+Vocab Express Style Guide
 #########################
 
 This document will detail a set of guidelines to use when
