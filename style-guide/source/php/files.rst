@@ -5,8 +5,8 @@ Files
 File Format
 ===========
 
-Files should be saved with UTF-8 encoding and the BOM should not be used. We have already has casses
-of the BOM causing issues between servers should should be avoided at all times.
+Files should be saved with UTF-8 encoding and the BOM should not be used. We have already had cases
+of the BOM causing issues between servers.
 
 
 Line Endings
@@ -52,3 +52,12 @@ All file names must be in lower case. If the file contains a PHP **class** then 
     }
 
 then the name of the file should be: **image.php**
+
+
+Code Indenting
+==============
+
+When indenting and aligning code **spaces** should be used. While this has the disadvantage that some developers like to customise the indentation level, using spaces has a number of advantages:
+
+- Some developers might use tabs for aligning as well as indentation. When displayed in SCM (for example) code might become misaligned.
+- Most modern editors/IDEs can convert tabs to spaces, and treat a block of spaces as a tab. The developer can't tell the difference.
