@@ -1,5 +1,5 @@
 #########################
-Vocab Express Style Guide - FFS
+Vocab Express Style Guide
 #########################
 
 This document will detail a set of guidelines to use when
