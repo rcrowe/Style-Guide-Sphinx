@@ -95,6 +95,8 @@
 				</fieldset>
 			</form>
 			<ul>
+				<li><a href="/">All Documents</a>&nbsp;&nbsp;{{ reldelim1 }}</li>
+
 				{%- block rootrellink %}
 				<li><a href="{{ pathto(master_doc) }}">Style Guide Home</a>{%- if pagename != 'index' %}&nbsp;&nbsp;{{ reldelim1 }}{%- endif %}</li>
 				{%- endblock %}
