@@ -12,7 +12,5 @@ if (!$payload) exit();
 
 // check for payload and server key
 if ($payload->ref === 'refs/heads/master' and $_REQUEST['key'] == SERVER_KEY) {
-    exec('make update');
-    exec('make clean');
-    exec('make build');
+    exec('cd ../ && make update && make clean && make build');
 }
