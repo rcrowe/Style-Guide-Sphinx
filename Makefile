@@ -16,9 +16,11 @@ help:
 	@echo "  update     Update the GIT repo"
 
 clean:
+	cd index && make clean && cd ../
 	cd style-guide && make clean && cd ../
 
 build:
+	cd index && make $(TYPE) && cd ../
 	cd style-guide && make $(TYPE) && cd ../
 
 update:
