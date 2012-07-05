@@ -1,6 +1,6 @@
-#################
-Namespaces - HIGH
-#################
+##########
+Namespaces
+##########
 
 `Namespaces <http://www.php.net/manual/en/language.namespaces.rationale.php/>`_ allow for your code to be encapsulated, allowing all our classes to work
 without collision. ::
