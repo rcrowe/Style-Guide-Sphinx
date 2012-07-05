@@ -12,7 +12,7 @@ of the BOM causing issues between servers.
 Line Endings
 ============
 
-Line endings should use Unix style LF.
+Line endings should use Unix style **LF**.
 
 
 Closing PHP tag
