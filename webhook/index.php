@@ -16,28 +16,3 @@ if ($payload->ref === 'refs/heads/master' and $_REQUEST['key'] == SERVER_KEY) {
     exec('make clean');
     exec('make build');
 }
-~
-~
-~
-~
-~
-~
-~
-~
-~
-~
-~
-~
-~
-~
-~
-~
-~
-~
-~
-~
-~
-~
-~
-~
-"github.php" 15L, 271C written                                                                                                          11,24-31      All
