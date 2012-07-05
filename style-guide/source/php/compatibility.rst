@@ -7,7 +7,7 @@ PHP Version
 
 All PHP code must be compatible with `PHP <http://www.php.net/>`_ version **5.3** or newer.
 
-The server currently runs: version **5.3.3** *(as of 02/07/12)*.
+The server currently runs version **5.3.3** *(as of 02/07/12)*.
 
 
 PECL Extensions
