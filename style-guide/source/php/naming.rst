@@ -58,11 +58,13 @@ Variables
     $Str
     $bufferedText
     $groupid
+    $parCls
 
     // correct
     $str
     $buffer
     $group_id
+    $partial_class
 
 - Should be reasonably named to indicate their purpose and contents. Very short non-word variables
   should only be used as iterators in for() loops. ::
