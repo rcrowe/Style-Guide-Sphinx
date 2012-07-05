@@ -15,6 +15,5 @@ PECL Extensions
 
 Do not use PHP functions that require non-default libraries to be installed unless
 your code contains an alternative method when the function is not available. For any libraries
-that are needed you **MUST** include the library and installation instructions in::
-
-    ./repo/REQUIREMENTS.txt (to be decided)
+that are needed you **MUST** include the library and installation instructions in the
+**dependencies** document `here <#/>`_.
