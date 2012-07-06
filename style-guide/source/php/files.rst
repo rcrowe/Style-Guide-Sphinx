@@ -12,7 +12,7 @@ of the BOM causing issues between servers.
 Line Endings
 ============
 
-Line endings should use Unix style **LF**.
+- Line endings should use Unix style **LF**.
 
 
 Closing PHP tag
@@ -61,3 +61,9 @@ When indenting and aligning code **spaces** should be used. While this has the d
 
 - Some developers might use tabs for aligning as well as indentation. When displayed in SCM (for example) code might become misaligned.
 - Most modern editors/IDEs can convert tabs to spaces, and treat a block of spaces as a tab. The developer can't tell the difference.
+
+
+Whitespace
+==========
+
+- Make sure whitespace from the end of the line is stripped / removed. This helps when comparing the commit.
