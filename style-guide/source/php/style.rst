@@ -2,7 +2,7 @@
 Style
 #####
 
-PHP code should use the `Allman <http://en.wikipedia.org/wiki/Indent_style#Allman_style/>`_ style of indenting,
+PHP code should use the `Allman <http://en.wikipedia.org/wiki/Indent_style#Allman_style>`_ style of indenting,
 where braces are placed on their own line by themselves and indented to the same level as the control statement.
 
 Classes & Methods
