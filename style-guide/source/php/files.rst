@@ -15,6 +15,12 @@ Line Endings
 - Line endings should use Unix style **LF**.
 
 
+One file per class
+==================
+
+- Use separate files for each class.
+
+
 Closing PHP tag
 ===============
 
