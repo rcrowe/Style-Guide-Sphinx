@@ -22,31 +22,32 @@ Classes
 Methods
 =======
 
-- Methods should use camel case and not snake case. They must also be descriptive. ::
+- Methods should use snake case and not camel case. They must also be descriptive. ::
 
     // incorrect
     function fileproperties()
     function file_properties()
+    function getFileProperties()
 
     // correct
-    function getFileProperties()
+    function get_file_properties()
 
 - They must include their visibility. ::
 
     // incorrect
-    function getFileProperties()
+    function get_file_properties()
 
     // correct
-    public function getFileProperties()
-    protected function saveFileProperties()
+    public function get_file_properties()
+    protected function save()
 
 - If using the **static** keyword this must come after the *visibility*. ::
 
     // incorrect
-    static public function makeToast()
+    static public function make_toast()
 
     // correct
-    public static function makeToast()
+    public static function make_toast()
 
 
 Variables
