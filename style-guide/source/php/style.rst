@@ -48,14 +48,14 @@ Control Structures
         ...
     }
 
-    foreach($arr as $key => $val)
+    foreach ($arr as $key => $val)
     {
         ...
     }
 
 - Switch break statements go to the same level as your code so that you can visually see different blocks. ::
 
-    switch($item)
+    switch ($item)
     {
         case 'Vocab':
             $file = 'vocab.txt';
