@@ -52,3 +52,19 @@ Control Structures
     {
         ...
     }
+
+- Switch break statements go to the same level as your code so that you can visually see different blocks. ::
+
+    switch($item)
+    {
+        case 'Vocab':
+            $file = 'vocab.txt';
+            break;
+
+        case 'Express':
+            $file = 'vocab_express.csv';
+            break;
+
+        default:
+            $file = 'error.txt';
+    }
