@@ -34,8 +34,8 @@ PHP
 - :doc:`php/fig`
 - :doc:`php/files`
 - :doc:`php/namespaces`
-- :doc:`php/naming`
 - :doc:`php/comments`
+- :doc:`php/naming`
 - :doc:`php/style`
 - :doc:`php/comparison_logical`
 - :doc:`php/misc`

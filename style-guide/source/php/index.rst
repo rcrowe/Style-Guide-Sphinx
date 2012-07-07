@@ -9,8 +9,8 @@ the Vocab Express coding standard.
 - :doc:`fig`
 - :doc:`files`
 - :doc:`namespaces`
-- :doc:`naming`
 - :doc:`comments`
+- :doc:`naming`
 - :doc:`style`
 - :doc:`comparison_logical`
 - :doc:`misc`
