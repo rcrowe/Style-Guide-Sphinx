@@ -13,7 +13,6 @@ the Vocab Express coding standard.
 - :doc:`naming`
 - :doc:`style`
 - :doc:`comparison_logical`
-- :doc:`misc`
 - :doc:`example`
 
 .. toctree::

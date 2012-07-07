@@ -38,7 +38,6 @@ PHP
 - :doc:`php/naming`
 - :doc:`php/style`
 - :doc:`php/comparison_logical`
-- :doc:`php/misc`
 - :doc:`php/example`
 
 
