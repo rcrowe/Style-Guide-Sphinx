@@ -29,6 +29,8 @@ CSS
 PHP
 ***
 
+Go read `this first <http://www.phptherightway.com/>`_ and then come back.
+
 - :doc:`php/compatibility`
 - :doc:`php/fig`
 - :doc:`php/files`

@@ -5,6 +5,8 @@ PHP
 This PHP style guide contains the following guides to follow, together they make up
 the Vocab Express coding standard.
 
+Go read `this first <http://www.phptherightway.com/>`_ and then come back.
+
 - :doc:`compatibility`
 - :doc:`fig`
 - :doc:`files`
