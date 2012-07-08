@@ -17,11 +17,11 @@ writing source code for the Vocab Express application.
 CSS
 ***
 
-- :doc:`css/recess`
-- :doc:`css/whitespace`
 - :doc:`css/comments`
 - :doc:`css/formatting`
+- :doc:`css/ordering`
 - :doc:`css/naming`
+- :doc:`css/recess`
 - :doc:`css/example`
 
 
