@@ -17,7 +17,6 @@ writing source code for the Vocab Express application.
 CSS
 ***
 
-- :doc:`css/organisation`
 - :doc:`css/recess`
 - :doc:`css/whitespace`
 - :doc:`css/comments`
