@@ -7,13 +7,14 @@ In general, code should be commented prolifically. It not only helps describe th
 DocBlocks
 =========
 
-A `DocBlock <http://manual.phpdoc.org/HTMLSmartyConverter/HandS/phpDocumentor/tutorial_phpDocumentor.howto.pkg.html>`_ or **documentation block** is a format of writing documentation for your classes and methods that give the developer a standard to follow and all the comments to be passed. To find out more information on DocBlocks you can read up on it `here <http://manual.phpdoc.org/HTMLSmartyConverter/HandS/phpDocumentor/tutorial_phpDocumentor.howto.pkg.html>`_. ::
+A `DocBlock <http://manual.phpdoc.org/HTMLSmartyConverter/HandS/phpDocumentor/tutorial_phpDocumentor.howto.pkg.html>`_ or **documentation block** is a format of writing documentation for your classes and methods that give the developer a standard to follow and all the comments to be passed. You can find more information about using Docblocks over on the `PHPDoc site <http://manual.phpdoc.org/HTMLSmartyConverter/HandS/phpDocumentor/tutorial_phpDocumentor.howto.pkg.html>`_. ::
 
     /**
      *
      */
 
-To parse the DocBlocks we will use `Apigen <http://apigen.org/>`_ and example of the parsed DocBlocks cab be found `here <http://api.nette.org/2.0/>`_. An example of DocBlocks::
+To parse the DocBlocks we will use `Apigen <http://apigen.org/>`_ and example of the parsed DocBlocks cab be found
+`here <http://api.nette.org/2.0/>`_. An example of DocBlocks::
 
     <?php
 
