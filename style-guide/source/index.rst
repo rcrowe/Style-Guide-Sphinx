@@ -19,7 +19,6 @@ CSS
 
 - :doc:`css/comments`
 - :doc:`css/formatting`
-- :doc:`css/ordering`
 - :doc:`css/naming`
 - :doc:`css/recess`
 - :doc:`css/example`

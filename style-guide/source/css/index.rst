@@ -8,7 +8,6 @@ in `Idiomatic CSS <https://github.com/necolas/idiomatic-css>`_.
 
 - :doc:`comments`
 - :doc:`formatting`
-- :doc:`ordering`
 - :doc:`naming`
 - :doc:`recess`
 - :doc:`example`
