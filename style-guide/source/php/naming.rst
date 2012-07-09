@@ -2,9 +2,6 @@
 Naming
 ######
 
-php keywords MUST be lower case
-constants MUST be upper case
-
 Classes
 =======
 
@@ -22,32 +19,32 @@ Classes
 Methods
 =======
 
-- Methods should use snake case and not camel case. They must also be descriptive. ::
+- Methods should use camel case and not snake case. They must also be descriptive. ::
 
     // incorrect
-    function fileproperties()
     function file_properties()
-    function getFileProperties()
+    function fileproperties()
+    function get_file_properties()
 
     // correct
-    function get_file_properties()
+    function getFileProperties()
 
 - They must include their visibility. ::
 
     // incorrect
-    function get_file_properties()
+    function getFileProperties()
 
     // correct
-    public function get_file_properties()
+    public function getFileProperties()
     protected function save()
 
 - If using the **static** keyword this must come after the *visibility*. ::
 
     // incorrect
-    static public function make_toast()
+    static public function makeToast()
 
     // correct
-    public static function make_toast()
+    public static function makeToast()
 
 
 Variables
@@ -93,8 +90,15 @@ Constants follow the same naming restrictions as variables apart from:
 Keywords
 ========
 
-- Keywords such as **true** & **false** should be lowercase as uppercase is reserved for constants. ::
+- PHP keywords should be lowercase
+- Keywords such as **true**, **false** & **null** should be uppercase. ::
 
-    $var = true
-    $var = false
-    $var = null
+    // incorrect
+    if ($foo == true)
+    $bar = false;
+    function foo($bar = null)
+
+    // correct
+    if ($foo == TRUE)
+    $bar = FALSE;
+    function foo($bar = NULL)

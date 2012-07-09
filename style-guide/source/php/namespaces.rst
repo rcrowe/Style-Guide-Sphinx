@@ -58,7 +58,7 @@ Core Namespace
 
 The core namespace is what all Vocab Express PHP classes should come under. This is still to be decided, but for now use **Vocab**. This translates to::
 
-    namespace Vocab/...;
+    namespace Vexp/...;
 
 
 Autoloading

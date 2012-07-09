@@ -16,19 +16,18 @@ Use the same stringency in returning and checking your own variables. Use === an
 
 
     // incorrect
-    function build_string($str = "")
+    public function buildString($str = "")
     {
-        if ($str == "") // uh-oh!  What if FALSE or the integer 0 is passed as an argument?
-        {
+        // uh-oh!  What if FALSE or the integer 0 is passed as an argument?
+        if ($str == "") {
             ...
         }
     }
 
     // correct
-    function build_string($str = "")
+    public function buildString($str = "")
     {
-        if ($str === "")
-        {
+        if ($str === "") {
             ...
         }
     }

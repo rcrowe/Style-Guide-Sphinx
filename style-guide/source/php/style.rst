@@ -33,33 +33,38 @@ Control Structures
   parameter/argument lists and values. ::
 
     // incorrect
-    if($arg=true)
+    if($arg=TRUE)
 
     // correct
-    if ($arg = true)
+    if ($arg = TRUE)
 
-- Opening and closing braces should go on their own line and be indented to the same level as the control structure. ::
+- The opening brace should go on the same line as the control structure with a space before it. With the closing brace on
+  its own line indented to the same level as the control structure. ::
 
     // incorrect
-    if ($arg = true) {
+    if ($arg = TRUE)
+    {
+        ...
+    }
 
+    if ($arg = TRUE){
+        ...
     }
 
     // correct
-    if ($arg = true)
-    {
+    if ($arg = TRUE) {
         ...
     }
 
-    foreach ($arr as $key => $val)
-    {
+    foreach ($arr as $key => $val) {
         ...
     }
+
 
 - Switch break statements go to the same level as your code so that you can visually see different blocks. ::
 
-    switch ($item)
-    {
+    switch ($item) {
+
         case 'Vocab':
             $file = 'vocab.txt';
             break;
