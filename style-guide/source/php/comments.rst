@@ -13,7 +13,7 @@ A `DocBlock <http://manual.phpdoc.org/HTMLSmartyConverter/HandS/phpDocumentor/tu
      *
      */
 
-To parse the DocBlocks we will use `Apigen <http://apigen.org/>`_ and example of the parsed DocBlocks cab be found
+To parse the DocBlocks we will use `Apigen <http://apigen.org/>`_ an example of the parsed DocBlocks cab be found
 `here <http://api.nette.org/2.0/>`_. An example of DocBlocks::
 
     <?php
