@@ -2,8 +2,8 @@
 Style
 #####
 
-PHP code should use the `Allman <http://en.wikipedia.org/wiki/Indent_style#Allman_style>`_ style of indenting,
-where braces are placed on their own line by themselves and indented to the same level as the control statement.
+PHP code should use a variation on the `K&R <http://en.wikipedia.org/wiki/Indent_style#K.26R_style>`_ style of indenting. The
+difference are highlighted below.
 
 Classes & Methods
 =================
@@ -60,6 +60,28 @@ Control Structures
         ...
     }
 
+- When using else statements, they are to be placed on the line below. ::
+
+    // incorrect
+    if($arg) {
+        ...
+    } elseif($arg2) {
+        ...
+    } else {
+        ...
+    }
+
+    // correct
+    if($arg) {
+        ...
+    }
+    elseif($arg2) {
+
+    }
+    else {
+
+    }
+
 
 - Switch break statements go to the same level as your code so that you can visually see different blocks. ::
 
@@ -75,4 +97,20 @@ Control Structures
 
         default:
             $file = 'error.txt';
+    }
+
+- Braces should always be used even with simple one line statements. ::
+
+    // incorrect
+    if ($arg = TRUE)
+        echo 'Test';
+    else
+        echo 'nope';
+
+    // correct
+    if ($arg = TRUE) {
+        echo 'Test';
+    }
+    else {
+        echo 'nope';
     }
