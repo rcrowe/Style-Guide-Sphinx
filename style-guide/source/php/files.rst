@@ -63,7 +63,7 @@ then the name of the file should be: **image.php**
 Code Indenting
 ==============
 
-When indenting and aligning code **3 spaces** should be used. While this has the disadvantage that some developers like to customise the indentation level, using spaces has a number of advantages:
+When indenting and aligning code **4 spaces** should be used. While this has the disadvantage that some developers like to customise the indentation level, using spaces has a number of advantages:
 
 - Some developers might use tabs for aligning as well as indentation. When displayed in SCM (for example) code might become misaligned.
 - Most modern editors/IDEs can convert tabs to spaces, and treat a block of spaces as a tab. The developer can't tell the difference.
